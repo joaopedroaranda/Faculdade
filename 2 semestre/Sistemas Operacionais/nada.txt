@@ -1,0 +1,44 @@
+1. Sobre a visão do usuário em relação aos diferentes tipos de Sistemas Operacionais discutidas em aula, responda:
+
+    a. Explique como a visão do computador pelo usuário pode variar conforme a interface utilizada
+	Isso ocorre devido o sistema operacional utilizado, por isso a interface varia de acordo com a fabricante do software.
+
+    b. Quais são as principais diferenças entre o uso de um sistema operacional em um PC pessoal e em um mainframe?
+	As limitações, um mainframe tem uma capacidade de desempenho muito maior que a de um computador convencional, ele foi 	projetado para receber uma quantidade grande de dados ao 	mesmo tempo.
+
+2. Sobre a visão do Sistema Operacional, discutida em sala, responda:
+
+   a. Descreva a função do sistema operacional como um gerenciador de recursos.
+	o sistema operacional é essencial para garantir que os recursos de um computador sejam utilizados de forma eficiente, justa, e segura, permitindo que os usuários e aplicativos 	executem suas tarefas sem precisar lidar diretamente com os detalhes técnicos dos recursos.
+
+   b. Como o sistema operacional controla a execução dos programas do usuário para impedir erros e o uso impróprio do computador?
+	O sistema operacional monitora a execução dos programas, gerenciando permissões e acessos para evitar erros, proteger o sistema e garantir que os recursos não sejam usados de 	maneira inadequada.
+
+3. Sobre a organização do computador:
+
+  a. Descreva a organização básica de um computador, mencionando a função do bootstrap.
+	Um computador é organizado em CPU, memória, dispositivos de entrada/saída e armazenamento. O bootstrap é um programa que inicia o sistema operacional quando o computador é ligado.
+
+  b. Como a interrupção de hardware ou software afeta o funcionamento do computador?
+	Interrupções suspendem temporariamente a execução do programa atual para que o sistema operacional possa lidar com eventos urgentes, como novas entradas do teclado ou erros.
+
+4. Sobre estruturas de armazenamento, responda: 
+
+  a. Qual é a diferença entre memória volátil e não volátil?
+	Memória volátil, como a RAM, perde seu conteúdo quando o computador é desligado, enquanto a memória não volátil, como o disco rígido, mantém os dados armazenados mesmo sem energia.
+
+   b. Explique por que os programas de computador precisam estar armazenados na memória para serem executados.
+	Programas precisam estar na memória (RAM) para serem executados porque a CPU só pode acessar e executar instruções que estão diretamente nela.
+
+5. Sobre a Estrutura de Entrada e Saída (E/S):
+
+  a. Descreva a interação do sistema operacional com os dispositivos de E/S.
+	O sistema operacional se comunica com dispositivos de E/S através de drivers, gerenciando a transferência de dados entre a memória e os dispositivos.
+
+  b. Qual é a função de um driver de dispositivo?
+	é um software que permite ao sistema operacional se comunicar e controlar um dispositivo de hardware especifico. 
+
+6. Sobre Sistemas de Processador Único vs. Sistemas Multiprocessados:
+
+  a. Compare os sistemas de processador único com os sistemas multiprocessados, mencionando as vantagens dos multiprocessados.
+	Sistema de processador único têm uma única CPU, enquanto sistemas multiprocessados tem várias CPU's. Os sistemas multiprocessados oferecem maior desempenho, confiabilidade, e 	capacidade de executar várias tarefas simultaneamente 
