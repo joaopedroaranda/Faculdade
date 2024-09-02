@@ -1,3 +1,5 @@
+package Aula3;
+
 import java.util.ArrayList;
 
 public class Compra {
@@ -8,21 +10,21 @@ public class Compra {
     public Integer getNfe() {
         return nfe;
     }
-
+    
     public void setNfe(Integer nfe) {
         this.nfe = nfe;
     }
-
+    
     public ArrayList<Produto> getListaDeProdutos() {
         return listaDeProdutos;
     }
-
+    
     public void setListaDeProdutos(ArrayList<Produto> listaDeProdutos) {
         this.listaDeProdutos = listaDeProdutos;
     }
 
     public Double calcularImposto() {
-        double totalDeImposto = 0.0;
+        Double totalDeImposto = 0.0;
         for (Produto prod : listaDeProdutos) {
             switch (prod.getTipo()) {
                 case ELETRONICO:

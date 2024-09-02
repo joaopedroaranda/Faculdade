@@ -1,4 +1,7 @@
+package Aula3;
+
 public class Produto {
+
     private String name;
     private TipoDeProduto tipo;
     private Double valor;

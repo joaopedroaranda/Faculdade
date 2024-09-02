@@ -1,3 +1,5 @@
+package Aula3;
+
 public enum TipoDeProduto {
     ELETRONICO(1),
     VESTUARIO(2),
