@@ -1,12 +1,16 @@
 package exe9;
 
 public class Smartphone {
-
     private String marca;
     private String modelo;
-    private int storageCapacity;
+    private int capacidadeDeArmazenamento;
 
-    // Getters e Setters para marca
+    public Smartphone(String marca, String modelo, int capacidadeDeArmazenamento) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.capacidadeDeArmazenamento = capacidadeDeArmazenamento;
+    }
+
     public String getMarca() {
         return marca;
     }
@@ -15,7 +19,6 @@ public class Smartphone {
         this.marca = marca;
     }
 
-    // Getters e Setters para modelo
     public String getModelo() {
         return modelo;
     }
@@ -24,21 +27,15 @@ public class Smartphone {
         this.modelo = modelo;
     }
 
-    // Getters e Setters para storageCapacity
-    public int getStorageCapacity() {
-        return storageCapacity;
+    public int getCapacidadeDeArmazenamento() {
+        return capacidadeDeArmazenamento;
     }
 
-    public void setStorageCapacity(int storageCapacity) {
-        this.storageCapacity = storageCapacity;
+    public void setCapacidadeDeArmazenamento(int capacidadeDeArmazenamento) {
+        this.capacidadeDeArmazenamento = capacidadeDeArmazenamento;
     }
 
-    // Método para aumentar a capacidade de armazenamento
-    public void boostStorage(int additionalStorage) {
-        if (additionalStorage > 0) {
-            this.storageCapacity += additionalStorage;
-        } else {
-            System.out.println("O valor de armazenamento adicional deve ser positivo.");
-        }
+    public void boostStorage(int valor) {
+        this.capacidadeDeArmazenamento += valor;
     }
 }
