@@ -12,7 +12,7 @@ public class ConexaoBD {
 
     private static Connection getConnection() throws SQLException(
 
-        return DriverManager.getConnection(URL, USER, PASSWORD)
+        return DriverManager.getConnection(URL, USER, PASSWORD);
     )
 
 
