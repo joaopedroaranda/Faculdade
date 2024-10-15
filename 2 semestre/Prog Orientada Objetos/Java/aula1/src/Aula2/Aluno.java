@@ -1,4 +1,4 @@
-package Aula2;
+package src.Aula2;
 
 public class Aluno {
     private String nome;

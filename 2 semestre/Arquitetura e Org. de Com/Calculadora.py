@@ -137,6 +137,7 @@ def hexa_bina_decimal():
 
     print(f"Numero convertido para binario: {hexadecimal} e ele em Decima: {soma} ")
 
+# binario para decimal
 def bina_decimal():
     bina = str(input("Digite um numero: "))
     result_decimal = 0
@@ -147,5 +148,7 @@ def bina_decimal():
             result_decimal += 2**i
     print(f"Valor em decimal: {result_decimal}")
 
-bina_decimal()
+# 
+hexa_bina()
+# 
     
